@@ -1,0 +1,18 @@
+PODS:
+  - WZGraphicView (1.1.0):
+    - WZGraphicView/Source (= 1.1.0)
+  - WZGraphicView/Source (1.1.0)
+
+DEPENDENCIES:
+  - WZGraphicView (from `../`)
+
+EXTERNAL SOURCES:
+  WZGraphicView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZGraphicView: b4423af0414f7781984ef40130929a09f68d0a55
+
+PODFILE CHECKSUM: d045f52d89e8f6a9df56624b615ec4fa5a90f147
+
+COCOAPODS: 1.7.5

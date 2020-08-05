@@ -1,0 +1,14 @@
+source 'https://git.lug.ustc.edu.cn/wzios/WZPodSpecs.git'
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WZGraphicView_Example' do
+  pod 'WZGraphicView', :path => '../'
+
+  target 'WZGraphicView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
