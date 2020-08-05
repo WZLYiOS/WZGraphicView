@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
     WZGraphicViewUI布局
                        DESC
 
-  s.homepage         = 'https://gitlab.com/WZiOS/WZGraphicView'
+  s.homepage         = 'https://github.com/WZLYiOS/WZGraphicView'
   s.license          = 'MIT'
   s.author           = { 'xiaobin liu'=> '327847390@qq.com' }
-  s.source           = { :git => 'https://gitlab.com/WZiOS/WZGraphicView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/WZLYiOS/WZGraphicView.git', :tag => s.version.to_s }
 
   s.requires_arc = true
   s.static_framework = true
