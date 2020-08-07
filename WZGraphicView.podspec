@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'WZGraphicView'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'WZGraphicView'
 
   s.description      = <<-DESC
@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
   end
 
 
-  s.subspec 'Binary' do |ss|
-    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZGraphicView.framework"
-    ss.source_files = "Carthage/Build/iOS/Static/WZGraphicView.framework/Headers/*.h"
-    ss.public_header_files = "Carthage/Build/iOS/Static/WZGraphicView.framework/Headers/*.h"
-  end
+#  s.subspec 'Binary' do |ss|
+#    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZGraphicView.framework"
+#    ss.source_files = "Carthage/Build/iOS/Static/WZGraphicView.framework/Headers/*.h"
+#    ss.public_header_files = "Carthage/Build/iOS/Static/WZGraphicView.framework/Headers/*.h"
+#  end
 end
